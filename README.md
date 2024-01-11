@@ -1,3 +1,13 @@
+This is a front-end side for Counter app.
+This application is function to count the number of name start with "M" or "m" and show the list of names.
+To run build and ru this application, there are two approach is using docker command.
+Build an image by run command "docker build -t  counterapp-front-1.0 ."
+The create container by run command "docker container create --name counterapp-front-1.0 -p 3000:3000 counterapp-front-1.0"
+To check tif this process is done, run command "docker ps -a". If you can find counterapp-1.0 in the list, the you can proceed to next step. If not, retry previous steps.
+Then run the docker by command "docker run counterapp-front-1.0"
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
